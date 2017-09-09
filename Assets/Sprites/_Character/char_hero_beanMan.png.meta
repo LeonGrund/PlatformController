@@ -1,7 +1,17 @@
 fileFormatVersion: 2
 guid: e7d3a1e0e2fac4bd48b6734c2daf4fe1
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: rightFoot
+    21300002: leftFoot
+    21300004: body
+    21300006: tache
+    21300008: leftHand
+    21300010: hat
+    21300012: rightHand
+    21300014: bazooka
+    21300016: rightEye
+    21300018: leftEye
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -15,7 +25,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -40,15 +50,18 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: rightFoot
+    - serializedVersion: 2
+      name: rightFoot
       rect:
         serializedVersion: 2
         x: 63
@@ -56,9 +69,12 @@ TextureImporter:
         width: 103
         height: 61
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: leftFoot
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: leftFoot
       rect:
         serializedVersion: 2
         x: 251
@@ -66,9 +82,12 @@ TextureImporter:
         width: 59
         height: 40
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: body
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: body
       rect:
         serializedVersion: 2
         x: 79
@@ -76,9 +95,12 @@ TextureImporter:
         width: 204
         height: 341
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: tache
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tache
       rect:
         serializedVersion: 2
         x: 470
@@ -86,9 +108,12 @@ TextureImporter:
         width: 149
         height: 44
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: leftHand
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: leftHand
       rect:
         serializedVersion: 2
         x: 337
@@ -96,9 +121,12 @@ TextureImporter:
         width: 32
         height: 34
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: hat
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat
       rect:
         serializedVersion: 2
         x: 772
@@ -106,9 +134,12 @@ TextureImporter:
         width: 74
         height: 71
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rightHand
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: rightHand
       rect:
         serializedVersion: 2
         x: 18
@@ -116,9 +147,12 @@ TextureImporter:
         width: 48
         height: 55
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: bazooka
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bazooka
       rect:
         serializedVersion: 2
         x: 301
@@ -126,9 +160,12 @@ TextureImporter:
         width: 367
         height: 196
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rightEye
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: rightEye
       rect:
         serializedVersion: 2
         x: 741
@@ -136,9 +173,12 @@ TextureImporter:
         width: 67
         height: 72
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: leftEye
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: leftEye
       rect:
         serializedVersion: 2
         x: 835
@@ -146,8 +186,11 @@ TextureImporter:
         width: 27
         height: 27
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
   spritePackingTag: characters
   userData: 
   assetBundleName: 
