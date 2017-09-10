@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\PlatformerScripts\SpawnManager.cs" />
      <Compile Include="Assets\Scripts\PlatformerScripts\SpawnManagerLvL2.cs" />
      <Compile Include="Assets\Scripts\PlatformerScripts\SpawnRocks.cs" />
+     <Compile Include="Assets\Scripts\PlatformerScripts\SpitballFall.cs" />
      <Compile Include="Assets\Scripts\PlatformerScripts\Weapon.cs" />
      <Compile Include="Assets\Scripts\PlatformerScripts\alienGround.cs" />
      <Compile Include="Assets\Scripts\PlatformerScripts\alienShip.cs" />
