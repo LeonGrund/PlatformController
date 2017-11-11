@@ -101,9 +101,9 @@ public class PlatformController : MonoBehaviour {
     // displayed in game
     void OnGUI()
     {
-        GUI.Label(new Rect(70, 1, 200, 30), " " + "Kryptonite: " + Kryptonite.krypCount);
-        GUI.Label(new Rect(70, 28, 200, 30), " " + "Rock: " + Rock.rockCount);
-        GUI.Label(new Rect(70, 55, 200, 30), " " + "Boost: " + extraJump);
+        GUI.Label(new Rect(10, 5, 200, 30), " " + "Kryptonite: " + Kryptonite.krypCount);
+        GUI.Label(new Rect(10, 35, 200, 30), " " + "Rock: " + Rock.rockCount);
+        GUI.Label(new Rect(10, 65, 200, 30), " " + "Boost: " + extraJump);
         GUI.Label(new Rect(200, 1, 200, 30), " " + "Score: " + score);
     }
 }
