@@ -4,7 +4,7 @@
 #### Beware of the dangers... dropping platforms, space bats, and more!
 &nbsp;  
 # Controls:
-## **Left** and **right arrow** to ```move```
-## **Up arrow** to ```jump```
-## **Space bar** to ```shoot```
+### **Left** and **right arrow** to ```move```
+### **Up arrow** to ```jump```
+### **Space bar** to ```shoot```
 ### [PLAY NOW!](https://leongrund.github.io/PlatformController/)

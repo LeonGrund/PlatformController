@@ -9,49 +9,49 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1000011247159626}
+  m_RootGameObject: {fileID: 1000010341241466}
   m_IsPrefabParent: 1
---- !u!1 &1000011247159626
+--- !u!1 &1000010341241466
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 4000012073284378}
-  - 212: {fileID: 212000013168993188}
-  - 61: {fileID: 61000010242138402}
-  - 50: {fileID: 50000012165477612}
-  - 61: {fileID: 61000012015191276}
-  - 114: {fileID: 114000012434100510}
-  - 114: {fileID: 114000013474417112}
+  - 4: {fileID: 4000014036488464}
+  - 212: {fileID: 212000010112858532}
+  - 61: {fileID: 61000012840168336}
+  - 50: {fileID: 50000010880495446}
+  - 61: {fileID: 61000013689415518}
+  - 114: {fileID: 114000010987633922}
+  - 114: {fileID: 114000011748875862}
   m_Layer: 0
   m_Name: spitball
-  m_TagString: Enemy
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4000012073284378
+--- !u!4 &4000014036488464
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011247159626}
+  m_GameObject: {fileID: 1000010341241466}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.1, y: 4.05, z: 0}
+  m_LocalPosition: {x: 15.97, y: 4.05, z: -2}
   m_LocalScale: {x: 1.12, y: 0.89, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!50 &50000012165477612
+--- !u!50 &50000010880495446
 Rigidbody2D:
   serializedVersion: 2
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011247159626}
+  m_GameObject: {fileID: 1000010341241466}
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0.01
@@ -62,12 +62,12 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &61000010242138402
+--- !u!61 &61000012840168336
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011247159626}
+  m_GameObject: {fileID: 1000010341241466}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -76,12 +76,12 @@ BoxCollider2D:
   m_Offset: {x: 0.16, y: -0.37}
   serializedVersion: 2
   m_Size: {x: 2.22, y: 1.27}
---- !u!61 &61000012015191276
+--- !u!61 &61000013689415518
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011247159626}
+  m_GameObject: {fileID: 1000010341241466}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -90,12 +90,12 @@ BoxCollider2D:
   m_Offset: {x: 0.19, y: -0.35}
   serializedVersion: 2
   m_Size: {x: 2.18, y: 1.14}
---- !u!114 &114000012434100510
+--- !u!114 &114000010987633922
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011247159626}
+  m_GameObject: {fileID: 1000010341241466}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6188156510628054091097accf344635, type: 3}
@@ -103,23 +103,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LiveTime: 10
   Speed: 2
---- !u!114 &114000013474417112
+--- !u!114 &114000011748875862
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011247159626}
+  m_GameObject: {fileID: 1000010341241466}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43fa3444bf017ee4b94c51082ec508f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!212 &212000013168993188
+--- !u!212 &212000010112858532
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011247159626}
+  m_GameObject: {fileID: 1000010341241466}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
