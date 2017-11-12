@@ -8,3 +8,5 @@
 ### **Up arrow** to ```jump```
 ### **Space bar** to ```shoot```
 ### [PLAY NOW!](https://leongrund.github.io/PlatformController/)
+&nbsp;  
+![Space Guardian](space-guardian-start-screen.jpeg)
