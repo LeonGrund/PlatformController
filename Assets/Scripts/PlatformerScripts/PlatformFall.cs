@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class PlatformFall : MonoBehaviour {
-    public float fallDelay = 3f;
+    public float fallDelay = 8f;
     public SpriteRenderer originalPlatform;
     public Sprite touchedPlatform1;
     public Sprite touchedPlatform2;
