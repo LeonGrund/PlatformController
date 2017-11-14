@@ -11,5 +11,4 @@
 &nbsp;
 
 ![Space Guardian](space-guardian-start-screen.jpeg)
-&nbsp;
-![pl](space-guardian-start-play.jpeg)
+![pl](space-guardian-play.jpeg)
