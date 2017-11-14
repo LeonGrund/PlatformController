@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\MenuScripts\CreditManager.cs" />
      <Compile Include="Assets\Scripts\MenuScripts\DeathManager.cs" />
      <Compile Include="Assets\Scripts\MenuScripts\StartManager.cs" />
      <Compile Include="Assets\Scripts\PlatformerScripts\BlackHole.cs" />

@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/Platformer.unity
   - enabled: 1
     path: Assets/DeathMenu.unity
+  - enabled: 1
+    path: Assets/Credits.unity
