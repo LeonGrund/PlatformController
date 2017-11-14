@@ -1,7 +1,7 @@
 # **Space Guardian**
 &nbsp;
-#### Your spaceship broke down... collect space rocks and kryptonite to repair it.
-#### Beware of the dangers: dropping platforms, space bats, and more!
+#### Your spaceship broke down... collect space rocks and kryptonite to survive.
+#### Beware of the dangers: dropping platforms, space bats, blackholes...
 &nbsp;  
 # Controls:
 ### **Left** and **right arrow** to ```move```
