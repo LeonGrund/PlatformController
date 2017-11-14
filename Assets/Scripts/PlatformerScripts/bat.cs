@@ -48,6 +48,7 @@ public class bat : MonoBehaviour {
             deadly = false;
             Fall();
         }
+
         if (other.gameObject.CompareTag("Enemy"))
         {
             deadly = false;
